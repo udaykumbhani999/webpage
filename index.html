@@ -3,64 +3,111 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Top 5 IT Companies</title>
+    <title>Next - Modern Digital Agency</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="container">
-      <h1>Top 5 IT Companies</h1>
-      <div class="companies">
-        <div class="company-card">
-          <h2>Apple Inc.</h2>
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
-            alt="Apple Logo"
-          />
-          <p>Market Cap: $2.8T</p>
-          <p>Founded: 1976</p>
-          <p>HQ: Cupertino, CA</p>
+    <header class="header">
+      <nav class="nav-container">
+        <div class="logo">NEXT</div>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="contact-btn">Contact Us</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1>
+            We Create Digital <span class="highlight">Experience</span>
+          </h1>
+          <p>
+            Help find solutions with intuitive and in accordance with client
+            business goals. We provide high-quality services.
+          </p>
+          <div class="hero-buttons">
+            <button class="primary-btn">Get Started</button>
+            <button class="secondary-btn">Learn More</button>
+          </div>
+          <div class="stats">
+            <div class="stat-item">
+              <h3>500+</h3>
+              <p>Projects Completed</p>
+            </div>
+            <div class="stat-item">
+              <h3>100+</h3>
+              <p>Active Clients</p>
+            </div>
+            <div class="stat-item">
+              <h3>10+</h3>
+              <p>Years Experience</p>
+            </div>
+          </div>
         </div>
-        <div class="company-card">
-          <h2>Microsoft</h2>
+        <div class="hero-image">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg"
-            alt="Microsoft Logo"
+            src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
+            alt="Digital Experience"
           />
-          <p>Market Cap: $2.7T</p>
-          <p>Founded: 1975</p>
-          <p>HQ: Redmond, WA</p>
         </div>
-        <div class="company-card">
-          <h2>Alphabet (Google)</h2>
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg"
-            alt="Google Logo"
-          />
-          <p>Market Cap: $1.7T</p>
-          <p>Founded: 1998</p>
-          <p>HQ: Mountain View, CA</p>
+      </section>
+
+      <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+          <div class="service-card">
+            <div class="service-icon">🎨</div>
+            <h3>UI/UX Design</h3>
+            <p>
+              Create beautiful and usable interfaces for web and mobile
+              applications
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">💻</div>
+            <h3>Web Development</h3>
+            <p>
+              Build fast, responsive and secure websites that drive business
+              growth
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">📱</div>
+            <h3>App Development</h3>
+            <p>Develop cross-platform mobile applications that users love</p>
+          </div>
         </div>
-        <div class="company-card">
-          <h2>Amazon</h2>
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
-            alt="Amazon Logo"
-          />
-          <p>Market Cap: $1.4T</p>
-          <p>Founded: 1994</p>
-          <p>HQ: Seattle, WA</p>
-        </div>
-        <div class="company-card">
-          <h2>NVIDIA</h2>
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/2/21/Nvidia_logo.svg"
-            alt="NVIDIA Logo"
-          />
-          <p>Market Cap: $1.0T</p>
-          <p>Founded: 1993</p>
-          <p>HQ: Santa Clara, CA</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-logo">NEXT</div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="#privacy">Privacy Policy</a></li>
+            <li><a href="#terms">Terms of Service</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
         </div>
       </div>
-    </div>
+      <div class="footer-bottom">
+        <p>
+          &copy; 2025 Next Digital Agency. All rights reserved.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
